@@ -1,0 +1,116 @@
+
+
+body{
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(100,43,115,1) 0%, rgba(4,0,4,1) 90% );
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    padding: 5px 3px;
+    width: 100%;
+    border-bottom: 2px solid white;
+    background-image: radial-gradient(circle 763px at 18.3% 24.1%,  rgba(255,249,137,1) 7.4%, rgba(226,183,40,1) 58.3% );
+    
+}
+
+.header{
+    text-align: center;
+    color: rgb(124, 9, 144);
+}
+.main{
+    display: flex;
+}
+
+.main-info{
+    display: flex;
+    padding: 15px 15px;
+    margin-top: 80px;
+    justify-content: center;
+    width: 35%;
+    height: 150px;
+    color: rgb(201, 200, 200);
+}
+
+.main-info ul li {
+    list-style: none;
+    
+
+}
+
+.main-info ul li .bx{
+    display: fixed;
+    padding-right: 5px;
+    font-size: 25px;
+    align-items: center;
+}
+
+.image{
+    padding: 30px 50px;
+}
+
+img{
+    border-radius: 15px;
+    box-shadow: 1px 1px 15px 1px;
+}
+
+.bx{
+    position: relative;
+    right: 7px;
+    top: 5px;
+}
+
+.education-main{
+    padding-left: 50px;
+}
+
+.education ul li {
+    margin-left: 75px;
+    padding-top: 5px;
+    color:rgb(201, 200, 200);
+}
+
+
+.exp{
+    padding-left: 50px;
+}
+
+.experience ul li {
+    margin-left: 75px;
+    padding-top: 5px;
+    color:rgb(201, 200, 200);
+}
+
+.ski{
+    padding-left: 50px;
+}
+
+.sk ul li {
+    margin-left: 75px;
+    padding-top: 5px;  
+    color:rgb(201, 200, 200);
+}
+
+.footer{
+    padding-left: 50px;
+}
+
+.footer p {
+    width: 500px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 40px;
+    color:rgb(201, 200, 200);
+}
+
+.textup{
+    color: yellow;
+}
+.ski{
+    color: yellow;
+}
+
+.add{
+    color: yellow;
+}
